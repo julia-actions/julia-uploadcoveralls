@@ -2,6 +2,10 @@ name: 'Upload Julia coveralls results'
 description: 'Upload Julia test coverage results to codecov'
 author: 'David Anthoff'
 
+branding:
+  icon: 'upload'
+  color: 'gray-dark'
+
 runs:
   using: 'composite'
   steps:
